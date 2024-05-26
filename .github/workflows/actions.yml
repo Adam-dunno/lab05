@@ -10,7 +10,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
-          path: /Users/main/Adam-dunno/workspace/projects/lab04 
+          path: /Users/runner/work/_temp/a2c37563-b019-45e9-9354-4af2ca416c0a.sh
           key: ${{ runner.os }}-dependencies-${{ hashFiles('**/lockfiles') }}
       - name: Test project
         run: ./.github/workflows/test.sh
